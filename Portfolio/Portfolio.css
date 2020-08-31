@@ -91,3 +91,22 @@ header i{
 	height: 200px;
 	padding-top: 50px;
 }
+#uptop{
+	position: fixed;
+	float: right;
+	padding: 10px;
+	background-color:#9E0AF4;
+	color: #F90D11;
+	font-size: 15px;
+	border-radius: 100px;
+	opacity: 0.8;
+	border: none;
+	left: 95%;
+	top: 90%;
+	display: none;
+	
+	z-index: 100;
+}
+#uptop:hover{
+	opacity: 1.0;
+}
