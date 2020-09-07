@@ -1,8 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 *{
-	margin: 0px;
-	padding:0px; 
+	margin: 0;
+	padding:0; 
 }
 header{
 	background-image: url(hardy-fowler-alley.jpg);
@@ -394,5 +394,14 @@ i{
     opacity: 1;
   }
 }
-
+@media ( max-width: 414px)
+{
+	header h1{
+		font-size: 100px;
+		color: #37E714;
+	}
+}
+header h1{
+	font-family: 'Monoton', cursive;
+}
 
