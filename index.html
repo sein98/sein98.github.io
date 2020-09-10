@@ -2,68 +2,265 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>b6</title>
-<link href="b6.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<link href="index.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<link href="Portfolio.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">	
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">	
+<link rel="stylesheet" type="text/css" href="aos.css">
+<script type="text/javascript" src="aos.js"></script>
+<script type="text/javascript" src="jquery-3.5.1.min.js"></script>	
+<script src="anime.min.js"></script>
 </head>
-
 <body>
-	<div id="banner">
+	<header id="head">
 		<ul>
-			<li>Trang chủ</li>
-			<li>Liên hệ 0123456789</li>
+			<li id="Sein">Sein</li>
+			<li><a href="#s1">Home</a></li>
+			<li><a href="#s2">About</a></li>
+			<li><a href="#s3">Services</a></li>
+			<li><a href="#s4">Portfolio</a></li>
+			<li><a href="#s5">Resume</a></li>
+			<li><a href="#s7">Blog</a></li>
+			<li><a href="#s8">Contact</a></li>
 		</ul>
-		<h4>League of</h4>
-		<h1>RUNETERRA</h1>
-		<h6>Khám phá vào ngày 8/17/2020</h6>
-		<input class="xemthem" type="button" value="Xem Thêm">
-	</div>
-	<div class="gt">
-		Giới  thiệu
-	</div>
-	<div id="mid">
-	<div id="bdtop">
-		<img src="sixmorevodka-studio-swain-level-02.jpg" alt="Đây là hình">
-		<h5>Swain</h5>
-	</div>
-	<div id ="bdmid">
-		<img src="sixmorevodka-studio-quinn-level-01.jpg" alt="Đây là hình">
-		<h5>Quinn</h5>
-	</div>
-	<div id="bdbot">
-		<img src ="sixmorevodka-studio-sheriff-lariette-rose.jpg" alt="Đây là hình">
-		<h5>Ashe</h5>
-	</div>	
-	</div>	
-	<div id="bot">
-		<h1>Xem thêm tin tức</h1>
-		<div class="bott">
-			<h1><i class="fa fa-thumbs-up" aria-hidden="true"></i></h1>
-			<h2>Fanpage</h2>
-			<h6> when an unknown printer <br>took a galley of type and scrambled<br> it to make a type specimen book.<br> It has survived not only five centuries</h6>
+	</header>
+	<button onClick="topFunction()" id="uptop">
+		<i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+	</button>
+	<script>
+				window.onscroll = function () {
+					scrollFunction()
+				};
+
+				function scrollFunction() {
+					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+						document.getElementById("uptop").style.display = "block";
+					} else {document.getElementById("uptop").style.display = "none";
+					}
+				}
+
+								function topFunction() {
+					document.body.scrollTop = 0;
+					document.documentElement.scrollTop = 0;
+				}
+			</script>
+	<section id="s1">
+		<h3>Hello</h3>
+		<h1>My name is H.Hùng</h1>
+		<h6>-----------------------------being creative</h6>
+	</section>
+	<section id="s2">
+		<script type="text/javascript">
+			$(document).ready(function(){
+				AOS.init();
+			})
+		</script>
+			<div id="s2l">
+				<img src="avataaars.png" alt="Đây là hình">
+			</div>
+			<div data-aos="zoom-in" id="s2r">
+				
+				<ul>
+					<h1>I am Professional&nbsp;<span class="maudo">Web Developer</span> </h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus est<br>
+						, finibus ut congue sed, faucibus ut dui. Sed congue nisl dolor, id dapibus leo<br>
+ 						elementum posuere. Ut aliquam metus quis laoreet elementum. In hac<br>
+ 						habitasse platea dictumst. In hac habitasse platea dictumst. Aliquam porta <br>
+						faucibus arcu, et consequat velit vestibulum in. Donec quis tellus ut urna <br>
+						volutpat posuere quis consectetur quam.</p>
+					<li>Name:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nguyễn Hũu Hùng</li><br>
+					<li>Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22</li><br>
+					<li>Address:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Việt Nam -Trái Đất</li><br>
+					<li>Phone:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;01234567898</li>
+					<br>
+					<li>E-mail:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ymvn.league1998@gmail.com</li><br>
+					<li>Freelance:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Unavailable</li>
+				</ul>
+				<button name="button" type="button">Download CV</button>
+			</div>
+	</section>
+	<section id="s3">
+		<h1 id="s3h">My <span class="maudo">Service</span></h1>
+		<div data-aos="flip-left" data-aos-duration="2" data-aos-delay="10"  data-aos-anchor-placement="center-center" id="s31">
+			<img src="icon-responsive.svg" alt="icon1" >
+			<h1>Web Development</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Sed venenatis lectus tortor<br> et congue felis laoreet ac</p>
+		</div>
+		<div data-aos="flip-right" data-aos-duration="2" data-aos-delay="10"  data-aos-anchor-placement="center-center" id="s32">
+			<img src="icon-email.svg" alt="icon2">
+			<h1>Friendly Design</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Sed venenatis lectus tortor<br> et congue felis laoreet ac</p>
+		</div>
+		<div data-aos="flip-up" data-aos-duration="2" data-aos-delay="10"  data-aos-anchor-placement="center-center" id="s33">
+			<img src="icon-lock.svg" alt="icon3">
+			<h1>Clean Coded</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit. Sed venenatis lectus tortor<br> et congue felis laoreet ac</p>
+		</div>
+	</section>
+	<section id="s4">
+		<h1>My <span class="maudo">Portfolio</span></h1>
+		<div>
+			<div id="s4d1">
+				<ul>
+					<li><button name="button" type="button">All</button></li>
+					<li><button name="button" type="button">DESIGN</button></li>
+					<li><button name="button" type="button">DEVELOPMENT</button></li>
+					<li><button name="button" type="button">PRINTS</button></li>
+				</ul>
+			</div>
+			<div id ="s4d2">
+				<div id="s4d1d1">
+					<div id="d1">
+						 <a href="bo-chen-firecracker-vayne-process.gif">Vayne</a>
+					</div>
+					<div id="d2">
+						<a href="bo-chen-ij-riven-steps.gif">Riven</a>
+					</div>
+					<div id="d3">
+						<a href="bo-chen-irelia-to-final.gif">Irelia</a>
+					</div>
+				</div>
+				<div id="s4d1d2">
+					<div id="d4">
+						<a href="bo-chen-pf-riven-steps.gif">Riven'</a>
+					</div>
+					<div id="d5">
+						<a href="bo-chen-pool-party-splash-2018-to-final.gif">Caitlyn</a>
+					</div>
+					<div id="d6">
+						<a href="bo-chen-psy-ops-ezreal-steps.gif">Ezreal</a>
+					</div>
+				</div>
+				
+			</div>
+			<div id="s4ft">
+				<div id="s4ft1">
+					<h1>2020+</h1>
+					<h3 class="maudo">Successul Projects</h3>
+				</div>					
+				<div id="s4ft2">
+					<h1>111K</h1>
+					<h3 class="maudo">Happy Clients</h3>
+				</div>
+				<div id="s4ft3">
+					<h1>222+</h1>
+					<h3 class="maudo">Team Members</h3>
+				</div>
+				<div id="s4ft4">
+					<h1>333+</h1>
+					<h3 class="maudo">Winning Awards</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="s5">
+		<h1 id="s5h">My<span class="maudo"> Resume</span></h1>
+		<div id="s5d1">
+			<h1>Education</h1>
+			<div id="s51">
+					<fieldset>
+				<h2>Computer science</h2>
+				<h6><span class="maudo">2016</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>
+			</div>
+			<div id="s52">
+					<fieldset>
+				<h2>Computer science</h2>
+				<h6><span class="maudo">2016</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>
+			</div>
+			<div id="s53">
+					<fieldset>
+				<h2>Computer science</h2>
+				<h6><span class="maudo">2016</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>	
+			</div>
+		</div>
+		<div id="s5d2">
+			<h1>Experience</h1>
+			<div id="s54">
+					<fieldset>
+				<h2>Frontend-developer</h2>
+				<h6><span class="maudo">2016-2018</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>	
+			</div>
+			<div id="s55">
+					<fieldset>
+				<h2>Web Designer</h2>
+				<h6><span class="maudo">2018-2020</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>	
+			</div>
+			<div id="s56">
+					<fieldset>
+				<h2>Graphic Designer</h2>
+				<h6><span class="maudo">2016-2020</span>  /  Google LLC</h6>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Enim eveniet incidunt quidem.</p>
+					</fieldset>	
+			</div>
+		</div>
+	</section>
+	<section id="s6">
 			
+		<img src="1f4d1b0bf2b2ee93a13b14008fb4ee35.jpg" alt="Albert Einstein">
+		<p>"LÀM MỌI THỨ ĐƠN GIẢN NHẤT CÓ THỂ<br>NHƯNG ĐỪNG ĐƠN GIÁN HƠN NÓ VỐN DĨ."</p>
+		<h6>---ALBERT EINSTEIN </h6>
+	</section>
+	<section id="s7">
+		<h1 id="s7h">My<span class="maudo"> Blog</span></h1>
+		<div id="s71">
+			<img src="rossdraws-lyris-girl.jpg" alt="ross1">
+			<h5>Our Marketing Website</h5>
+			<h6><span class="maudo"><i class="fa fa-clock-o" aria-hidden="true"></i> September 9/2020</span>  /  Lifestyle</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Enim eveniet incidunt <br>quidem illum repellat</p>
+			<button name="button" type="button">Read more</button>
 		</div>
-		<div class="botm">
-			<h1><i class="fa fa-trophy" aria-hidden="true"></i></h1>
-			<h2>Liên hệ</h2>
-			<h6>but also the leap into electronic typesetting<br> remaining essentially unchanged</h6>
+		<div id="s72">
+			<video width="350" height="500" controls>
+  			<source src="Drawing a Character Design based off MUSIC! - ROCK.mp4" type="video/mp4">
+  			<source src="movie.ogg" type="video/ogg">
+			Your browser does not support the video tag.
+			</video>
+			<h5>Our Marketing Website</h5>
+			<h6><span class="maudo"><i class="fa fa-clock-o" aria-hidden="true"></i> September 9/2020</span>  /  Lifestyle</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Enim eveniet incidunt <br>quidem illum repellat</p>
+			<button name="button" type="button">Read more</button>
 		</div>
-		<div class="botb">			
-			<h1><i class="fa fa-heart-o" aria-hidden="true"></i></h1>
-			<h2>Giải đấu</h2>
-			<h6>Lorem Ipsum is simply dummy<br> text of the printing and typesetting<br> industry. Lorem Ipsum has been the<br> industry's standard dummy text ever since the 1500s</h6>
+		<div id="s73">
+			<img src="ross-tran-aluna-web.jpg" alt="ross3">
+			<h5>Our Marketing Website</h5>
+			<h6><span class="maudo"><i class="fa fa-clock-o" aria-hidden="true"></i> September 9/2020</span>  /  Lifestyle</h6>
+			<p>Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit. Enim eveniet incidunt <br>quidem illum repellat</p>
+			<button name="button" type="button">Read more</button>
 		</div>
-		<input class="xemthem" type="button" value="Xem Thêm">
-	</div>
-	<div id="end">
-		<h1>WHAT CUSTOMERS SAY</h1>
-		<h2>"</h2>
-		<h6>It is a long established fact that a reader will be distracted by the<br> readable content of a page when looking at its layout</h6>
-		<h3>H.Hùng</h3>
-	</div>
-	<div id="xong">
-		<h4>Copyright@ There are many variations of passages of Lorem Ipsum available</h4>
-	</div>
+	</section>
+	<section id="s8">
+		<h1 id="s8h">My<span class="maudo"> Contact</span></h1>
+		<div id="d81">
+			<fieldset>
+				<h2>CONTACT ADDRESS</h2>
+				<h4><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Việt Nam</h4>
+				<h4><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;&nbsp;&nbsp;&nbsp;Ymvn.league1998@gmail.com</h4>
+				<h4><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp; 0123456789</h4>
+			</fieldset>
+		</div>
+		<div id="d82">
+			<input type="text" placeholder="Your name"><br>
+			<input type="email" placeholder="Email">
+			<input type="text" placeholder="Subject"><br>
+			
+			<br>
+			<button name="button" type="button">SEND MESSAGE</button>
+		</div>
+	</section>
+	<footer>
+		<p>Copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2020 Sein | All Rights Reserved</p>
+	</footer>
 </body>
 </html>
