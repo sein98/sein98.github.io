@@ -23,8 +23,14 @@ header li{
 	padding-left: 50px;
 	margin-right: 700px;
 }
+#Sein:hover{
+	color:blue;
+}
+header ul {
+	position: absolute;
+}
 #head{
-	position:fixed;
+	position:relative;
 	z-index:100;
 	opacity:0.6;
 }
@@ -35,7 +41,7 @@ header li{
 #s1{
 	background-clip: content-box;
 -webkit-background-clip: text;
-	height: 1000px;
+	height: 700px;
 	background-size: cover;
 	font-size: 50px;
 	color:ghostwhite;
@@ -431,25 +437,15 @@ footer{
 	z-index: 100;
 }
 #video_background {
-
 position: absolute;
-
 bottom: 0px;
-
 right: 0px;
-
 min-width: 100%;
-
 min-height: 100%;
-
 width: auto;
-
 height: auto;
-
 z-index: -1000;
-
 overflow: hidden;
-
 }
 .hidden {
   opacity:0;
