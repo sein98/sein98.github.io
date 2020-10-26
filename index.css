@@ -24,7 +24,17 @@ header li{
 	margin-right: 700px;
 }
 #Sein:hover{
-	color:blue;
+	color:blue;	
+}
+#Sein:hover #menudropdown{
+	display:block;
+}
+#menudropdown{
+	display: none;
+	font-size: 25px;
+	position:absolute;
+	left: 50px;
+	margin-top: 10px;
 }
 header ul {
 	position: absolute;
