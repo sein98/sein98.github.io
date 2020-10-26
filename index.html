@@ -11,17 +11,20 @@
 <link href="index.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="aos.js"></script>
 <script type="text/javascript" src="jquery-3.5.1.min.js"></script>	
-<script src="anime.min.js"></script>
+<script src="anime.min.js"></script>	
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="jquery.countup.min.js"></script>	
 </head>
 <body>
 	<header id="head">
-		<ul>
-			<li id="Sein"><a></a>Sein
-			<ul id="menudropdown">
-					<li>Project1</li><br>
-					<li>Project2</li>
-				</ul></li>
-				
+		<ul id="menu">
+			<li id="Sein"><a href="#"></a>Sein
+				<ul id="submenu">
+					<li>PROJECT 1</li>
+					<li>PROJECT 2</li>
+				</ul>
+			</li>			
 			<li><a href="#s1">Home</a></li>
 			<li><a href="#s2">About</a></li>
 			<li><a href="#s3">Services</a></li>
@@ -38,28 +41,22 @@
 				window.onscroll = function () {
 					scrollFunction()
 				};
-
 				function scrollFunction() {
 					if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 						document.getElementById("uptop").style.display = "block";
 					} else {document.getElementById("uptop").style.display = "none";
 					}
 				}
-
 								function topFunction() {
 					document.body.scrollTop = 0;
 					document.documentElement.scrollTop = 0;
 				}
 			</script>
-	<section id="s1">
+	<section id="s1">	
 		<video id="video_background" preload="auto" autoplay="true" loop="loop" muted volume="0">
-
 			<source src="After Effects Template - Simple Slideshow from After Effects Templates on Vimeo.mp4" type="video/webm"/>
-
 			<source src="After Effects Template - Simple Slideshow from After Effects Templates on Vimeo.mp4" type="video/ogg ogv"/>
-
 			<source src="After Effects Template - Simple Slideshow from After Effects Templates on Vimeo.mp4" type="video/mp4"/>
-
 		</video>
 		<div class="wrapper">
   <p>Hi there! I am</p>
@@ -129,7 +126,7 @@
 			})
 		</script>
 			<div id="s2l">
-				<img src="avataaars.png" alt="Đây là hình">
+				<img src="fbavatar_1603714452333_6726465942281406990.png" alt="Đây là hình">
 			</div>
 			<div data-aos="zoom-in" id="s2r">
 				
@@ -207,22 +204,29 @@
 				
 			</div>
 			<div id="s4ft">
-				<div id="s4ft1">
-					<h1>2020+</h1>
+				<div class="counters" id="s4ft1">
+					   <span class="counter"  data-counter-time="2000" 
+     					 data-counter-delay="10" >2020</span>					
 					<h3 class="maudo">Successul Projects</h3>
-				</div>					
-				<div id="s4ft2">
-					<h1>111K</h1>
+				</div>
+				<div class="counters" id="s4ft2">
+					<span class="counter"  data-counter-time="2000" 
+     					 data-counter-delay="10" >111</span>
 					<h3 class="maudo">Happy Clients</h3>
 				</div>
-				<div id="s4ft3">
-					<h1>222+</h1>
+				<div class="counters" id="s4ft3">
+					<span class="counter"  data-counter-time="2000" 
+     					 data-counter-delay="10" >222</span>
 					<h3 class="maudo">Team Members</h3>
 				</div>
-				<div id="s4ft4">
-					<h1>333+</h1>
+				<div class="counters" id="s4ft4">
+					<span class="counter"  data-counter-time="2000" 
+     					 data-counter-delay="10" >333</span>
 					<h3 class="maudo">Winning Awards</h3>
 				</div>
+				<script>
+     $('.counter').countUp();
+</script>
 			</div>
 		</div>
 	</section>
@@ -323,9 +327,7 @@
 		<div id="d82">
 			<input type="text" placeholder="Your name"><br>
 			<input type="email" placeholder="Email">
-			<input type="text" placeholder="Subject"><br>
-			
-			<br>
+			<input type="text" placeholder="Subject"><br><br>
 			<button name="button" type="button">SEND MESSAGE</button>
 		</div>
 	</section>

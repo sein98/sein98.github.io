@@ -11,6 +11,11 @@
 	color: whitesmoke;
 	font-size: 20px;
 	padding-bottom: 10px;
+	display: block;
+	text-decoration: none;
+}
+#menu{
+	position: relative;
 }
 header li{
 	list-style-type: none;
@@ -26,21 +31,22 @@ header li{
 #Sein:hover{
 	color:blue;	
 }
-#Sein:hover #menudropdown{
+#Sein:hover #submenu{
 	display:block;
 }
-#menudropdown{
+#submenu{
 	display: none;
 	font-size: 25px;
 	position:absolute;
-	left: 50px;
-	margin-top: 10px;
+	background: #000012;
+	left: 40px;
+	top: 50px;
+	color: red;
 }
-header ul {
-	position: absolute;
+#submenu li{
+	display:inherit;
 }
 #head{
-	position:relative;
 	z-index:100;
 	opacity:0.6;
 }
@@ -160,8 +166,10 @@ header ul {
 	text-align: center;
 	color: whitesmoke;
 	background-color: #000012;
-	height: 1500px;
-	
+	height: 1500px;	
+}
+span.counter{
+	font-size: 50px;
 }
 #s4d1 li{
 	display: inline;
